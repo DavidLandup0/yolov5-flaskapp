@@ -1,0 +1,9 @@
+<html style="background: linear-gradient(#e66465, #9198e5);">
+   <body style="text-align:center">
+      <form action = "http://localhost:5000/predict" method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "file"/>
+         <input type = "submit"/>
+      </form>
+      <img src="{{ image }}" alt="Returned Image" style="width:75%;">
+   </body>
+</html>
